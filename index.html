@@ -13,7 +13,25 @@
   <style>
     @font-face {
       font-family: "outfit";
-      src: url("./fontes/Outfit-VariableFont_wght.ttf");
+      src: url("./fontes/header1/Outfit-VariableFont_wght.ttf");
+      font-weight: 100 900;
+      font-display: swap;
+
+    }
+
+    @font-face {
+      font-family: "outfitP";
+      src: url("./fontes/p/Outfit-VariableFont_wght.ttf");
+      font-weight: 100 900;
+      font-display: swap;
+
+    }
+
+    @font-face {
+      font-family: "outfitH2";
+      src: url("./fontes/header2/Outfit-VariableFont_wght.ttf");
+      font-weight: 100 900;
+      font-display: swap;
 
     }
 
@@ -25,7 +43,10 @@
 
     body {
       height: 100vh;
+      background-color: #121826;
+      background-image: url("./resources/Background_image@2x.png");
     }
+
 
     .author-info {
       font-size: 14px;
@@ -38,9 +59,119 @@
       text-decoration: none;
     }
 
-    h1 {
-      font-family: "outfit
+    .header1 {
+      color: #E5E7EB;
+      font-family: "outfit";
+      font-weight: 600;
+      text-align: center;
+      font-size: 2.5rem;
 
+    }
+
+    .p1 {
+
+      font-family: "outfitP";
+      font-weight: 400;
+      text-align: center;
+      font-size: 1rem;
+      color: #9DA3AE;
+    }
+
+    h2 {
+      font-family: "outfitH2";
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #E5E7EB;
+    }
+
+    .pbox1 {
+      font-family: "outfitP";
+      font-weight: 400;
+      font-size: 1rem;
+      color: #9DA3AE;
+
+    }
+
+    #icon1 {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: #FCEED8;
+      display: grid;
+      place-items: center;
+    }
+
+    #box1 {
+      background-color: #212936;
+      border-radius: 16px;
+      padding: 20px;
+      width: 300px;
+
+      box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+    }
+
+    #box1>div {
+      margin-top: 10px;
+    }
+
+    .image {
+      border-radius: 10px;
+    }
+
+    #bigbox {
+
+      padding: 50px;
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+
+
+    }
+
+    #box2 {
+      background-color: #212936;
+      border-radius: 16px;
+      padding: 20px;
+      width: 300px;
+
+      box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+    }
+
+    #box2>div {
+      margin-top: 10px;
+    }
+
+    #icon2 {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #DEE9FC;
+      display: grid;
+      place-items: center;
+    }
+
+
+    #box3 {
+      background-color: #212936;
+      border-radius: 16px;
+      padding: 20px;
+      width: 300px;
+
+      box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+    }
+
+    #box3>div {
+      margin-top: 10px;
+    }
+
+    #icon3 {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #FBE5E6;
+      display: grid;
+      place-items: center;
     }
   </style>
 </head>
@@ -52,8 +183,57 @@
     Coded by <a href="#">Nastaran Rezaei</a> | Challenge by
     <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
   </div>
-  <h1>Quality feedbacks for your SaaS products</h1>
-  <h2>The blocks & components you need</h2>
+
+
+
+  <h1 class="header1">Quality feedbacks for your SaaS products</h1>
+  <p class="p1">The blocks & components you need</p>
+
+
+  <section id="bigbox">
+    <article id="box1">
+      <div id="icon1">✋</div>
+      <div>
+        <h2>Collect Feedback at Multiple Touchpoints</h2>
+      </div>
+      <div>
+        <p class="pbox1">Provide a comprehensive understanding of the customer experience.</p>
+      </div>
+      <div>
+        <img src="./resources/photo_2.png" class="image">
+      </div>
+    </article>
+
+
+    <article id="box2">
+      <div id="icon2">🥅</div>
+      <div>
+        <h2>Ask Targeted and Specific Questions</h2>
+      </div>
+      <div>
+        <p class="pbox1">Avoid vague or open-ended questions that may not yield actionable insights.</p>
+      </div>
+      <div>
+        <img src="./resources/photo_1.png" class="image">
+      </div>
+    </article>
+
+
+    <article id="box3">
+      <div id="icon3">💬</div>
+      <div>
+        <h2>Ask Targeted and Specific Questions</h2>
+      </div>
+      <div>
+        <p class="pbox1">Communicate the changes or improvements you've made in response to their feedback.</p>
+      </div>
+      <div>
+        <img src="./resources/photo_3.png" class="image">
+      </div>
+    </article>
+
+
+  </section>
 
 
 </body>
