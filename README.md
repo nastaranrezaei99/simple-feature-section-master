@@ -1,18 +1,21 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">Simple Feature Section | devChallenges</h1>
 
 <div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-feature-section-challenge" target="_blank">Simple Feature Section</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+  Solution for a challenge
+  <a href="https://devchallenges.io/challenge/simple-feature-section-challenge" target="_blank">
+    Simple Feature Section
+  </a>
+  from
+  <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://nastaranrezaei99.github.io/simple-feature-section-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/nastaranrezaei99/simple-feature-section-master">
       Solution
     </a>
     <span> | </span>
@@ -22,8 +25,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -31,55 +32,48 @@
   - [Useful resources](#useful-resources)
 - [Built with](#built-with)
 - [Features](#features)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
+- [Author](#author)
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./screenshots/preview.png)
 
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- What have you learned/improved?
-- Your wisdom? :)
--->
+This project is a responsive feature section with three cards, built to match the provided devChallenges design. It focuses on layout, spacing, and typography using only HTML and CSS.
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+- How to build a clean and responsive layout using **Flexbox** (`display: flex`, `gap`, `justify-content`, `flex-wrap`).
+- The difference between **padding** (inner spacing) and **margin** (outer spacing), and how `gap` can simplify spacing between items.
+- How to create UI elements like circular icon backgrounds by controlling `width`, `height`, and centering content.
+- How to load and apply a custom font locally using `@font-face`, and control typography with `font-weight` (e.g., Regular vs SemiBold).
+- How to deploy a static project with **GitHub Pages**.
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+- MDN Flexbox: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+- CSS-Tricks – A Complete Guide to Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- MDN @font-face: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+- GitHub Pages documentation: https://docs.github.com/en/pages
 
-### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+## Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
 - Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+This application/site was created as a submission to a devChallenges challenge.
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
+- Responsive feature section (desktop / tablet / mobile)
+- Three feature cards with icon, title, description, and image
+- Typography and spacing aligned with the provided design
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+- Challenge provided by devChallenges.io
 
 ## Author
 
-- GitHub [@nastaranrezaei99]([https://{[github.com/nastaranrezaei99]}](https://github.com/nastaranrezaei99))
+- GitHub: https://github.com/nastaranrezaei99
