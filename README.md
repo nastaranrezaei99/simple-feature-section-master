@@ -82,4 +82,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- GitHub [@nastaranrezaei99](https://{[github.com/nastaranrezaei99]})
+- GitHub [@nastaranrezaei99]([https://{[github.com/nastaranrezaei99]}](https://github.com/nastaranrezaei99))
