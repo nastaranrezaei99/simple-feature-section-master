@@ -37,7 +37,8 @@
 
 ## Overview
 
-![screenshot](./screenshots/preview.png)
+<img width="1877" height="886" alt="image" src="https://github.com/user-attachments/assets/d313c822-63cb-43d5-961a-f8553aac2238" />
+
 
 This project is a responsive feature section with three cards, built to match the provided devChallenges design. It focuses on layout, spacing, and typography using only HTML and CSS.
 
